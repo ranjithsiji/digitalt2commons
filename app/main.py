@@ -349,3 +349,8 @@ def get_institution_qid(institution_name):
         # Add more mappings as needed
     }
     return institution_map.get(institution_name, '')
+
+@bp.route('/test_template')
+def test_template():
+    """Test route to verify templates are loading"""
+    return render_template('index.html')

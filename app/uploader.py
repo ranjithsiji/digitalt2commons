@@ -3,7 +3,7 @@ import json
 import requests
 from requests_oauthlib import OAuth1Session
 from urllib.parse import urlencode
-from config.settings import Config
+from config import Config
 from flask import current_app
 
 class WikimediaUploader:

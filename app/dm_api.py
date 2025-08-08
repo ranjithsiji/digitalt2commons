@@ -1,5 +1,5 @@
 import requests
-from config.settings import Config
+from config import Config
 
 class DigitaltMuseumClient:
     def __init__(self):
